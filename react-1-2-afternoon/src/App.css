@@ -1,0 +1,107 @@
+.App {
+  background: #222222;
+  height: 100vh;
+}
+
+nav {
+  background: #34A5DA;
+  height: 12vh;
+}
+main {
+  margin: 15vh 10vw;
+  height: 58vh;
+  width: 80vw;
+  font-family: 'Heebo', sans-serif;
+  line-height: 25px;
+}
+.home {
+  align-content: center;
+  padding-top: 4vh;
+  padding-left: 5vw;
+  font-size: 3vh;
+  font-weight: bold;
+}
+.body {
+  background: #EBEBEB;
+  height: 38vh;
+  padding-left: 15px;
+}
+.header {
+  background: #EBEBEB;
+  height: 12vh;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-top: 1vh;
+  padding-right: 1vw;
+}
+.footer {
+  /* border: 1px solid red; */
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+a {
+  color: white;
+}
+.button {     
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  color: white; 
+  font-weight: bold; 
+  font-size: 14pt;      
+}
+.hardbutton {
+  background: #34A5DA;
+  border: none;
+  border-radius: 12px;
+  padding:5px 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 10pt;
+}
+p {
+  display: flex;
+  flex-direction: row;
+}
+#box1 {
+  /* border: 1px solid red; */
+  padding-left: 4vw;
+  height: 15vh;
+}
+#box2 {
+  /* border: 1px solid red; */
+  padding-left: 4vw;
+  height: 15vh;
+}
+.list {
+  padding-left: 30px;
+}
+.headerInfo {
+  font-size: 4vh;
+  font-weight: bold;
+}
+#name {
+  text-decoration: underline #34A5DA;
+  margin-top: 4vh;
+  padding-left:15px;
+}
+.buttonHolder {
+  /* border: 1px solid red; */
+  width: 24vw;
+  display: flex;
+  justify-content: space-between;
+}
+h4 {
+  font-weight: bold;
+  padding-right: 5px;
+}
+ol {
+  margin-left: 22px;
+}
